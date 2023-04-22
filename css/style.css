@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Manrope:wght@500;700&display=swap');
+
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    body {
+        font-family: 'Kanit', sans-serif;
+        text-align: center;
+        background-color: hsl(270, 3%, 87%);
+        
+        
+
+    }
+    .background {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 530px;
+        height: 850px;
+        z-index: 1;
+    }
+
+    .informations {
+        position: absolute;
+        display: block;
+        top: 210px;
+        left: 910px;
+        font-family: 'Kanit', sans-serif;
+        text-align: left;
+        font-size: 13px;
+        letter-spacing: 1px;
+        font-weight: 700;
+       
+       
+    }
+
+    .card1 {
+       position: absolute;
+       background-image: url(/images/bg-card-front.png);
+       background-size: cover;
+       background-position: center;
+       padding: 60px 80px 90px 80px;
+       border-radius: 10px;
+       margin: 200px;
+       z-index: 2;
+       left: 70px;
+       bottom: 280px;
+       
+
+    }
+
+    .name {
+        position: absolute;
+        text-align: left;
+        left: 22px;
+        top: 130px;
+        color: #F2F2F2;
+        font-size: 11px;
+        font-family: 'Kanit', sans-serif;
+        letter-spacing: 1px;
+        font-weight: 700;
+        
+    }
+
+    .cardnumber {
+        position: relative;
+        color: #F2F2F2;
+        letter-spacing: 2px;
+        left: -60px;
+        top: 30px;
+        
+
+    }
+
+    .lastdate {
+        position: absolute;
+        right: 150px;
+        bottom: 30px;
+        color: #F2F2F2;
+    }
+
+
+    svg {
+        position: absolute;
+        width: 20px;
+        top: 30px;
+        right: 40px;
+        transform: rotate(90deg);
+        color: white;
+        height: 20px;
+
+        
+    }
+
+    .visa {
+        position: absolute;
+        width: 60px;
+        top: 130px;
+        right: 10px;
+    }
+
+    .back {
+        position: absolute;
+        width: 350px;
+        top: 240px;
+        left: 95px;
+    }
+
+    .cvv {
+        position: absolute;
+        color: white;
+        top: 307px;
+        left: 360px;
+        font-family: 'Kanit', sans-serif;
+
+
+    }
+
+    .cardholder {
+        font-family: 'Kanit', sans-serif;
+        margin-bottom: 50px;
+        color: hsl(278, 68%, 11%);
+        width: 358px;
+    }
+
+
+    input {
+        padding: 12px 100px 12px 15px;
+        text-align: left;
+        border-radius: 10px;
+        border: solid 1px rgb(175, 173, 173);
+        width: 50%;
+        background-color: hsl(270, 3%, 87%);
+        margin-top: 10px;
+        font-family: 'Kanit', sans-serif;
+    }
+    
+
+    .expdate input {
+        position: relative;
+        display: inline-block;
+        padding: 10px 10px 10px 10px;
+        width: 40px;
+        margin-right: 5px;
+        
+    }
+
+    .lastnumber {
+        display: inline-block;
+        position: relative;
+        width: 100px;
+        padding: 10px 10px 10px 10px;
+        bottom: 77px;
+        left: 180px;
+        
+    }
+    
+    .lastnumber input {
+        position: relative;
+        display: inline-block;
+        padding: 10px 51px 10px 5px;
+    }
+
+    button {
+        position: relative;
+        display: inline-block;
+        padding: 10px 40px 10px 40px;
+        width: 300px;
+        right: 124px;
+        border-radius: 8px;
+        border: none;
+        color: white;
+        font-family: 'Kanit', sans-serif;
+        font-size: 16px;
+        background-color: hsl(278, 68%, 11%);
+
+    }
+
+    .attribution {
+        position: relative;
+        top: 800px;
+
+    }
+
+
